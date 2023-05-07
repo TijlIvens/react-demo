@@ -34,7 +34,6 @@ export const Home: FC = () => {
     );
   }
 
-  console.log(data);
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
       <Typography variant="h2">{data.title}</Typography>
